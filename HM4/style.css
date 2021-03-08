@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1118px;
+    width: 100%;
+    max-height: 752px;
+    height: 100%;
+    background: url(./img/map.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    color: #ffff;
+
+}
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: #0d4d7ac0;
+
+
+}
+
+.card-block {
+    min-height: 752px;
+    height: 100%;
+    width: 33.3%;
+    
+}
+
+.card__title{
+    margin-top: 17px;
+    text-align: center;
+    font-size: 39px;
+}
+
+.card__content {
+    background: #1d465a;
+    opacity: 0.5;
+    height: 262px;
+    width: 325px;
+    margin-left: 25px;
+
+}
+
+.card { 
+    /* width: 100%; */
+}
+
+.card_yellow {
+background-color: yellow;
+}
+
+.card_pink {
+    background-color: pink;
+}
