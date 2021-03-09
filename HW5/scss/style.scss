@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bold {
+  font-family: "Myriad Pro Bold";
+}
+
+.container {
+  max-width: 1118px;
+  width: 100%;
+  height: 100%;
+  background: url(../img/map.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  color: #ffff;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 33.3%;
+  padding: 17px 29px 46px 26px;
+
+  &__title {
+    text-align: center;
+    font-size: 39px;
+  }
+
+  &__content {
+    background-color: #2a2a2a38;
+  }
+
+  &__country {
+    &-block {
+      display: flex;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+
+    &-description {
+      font-size: 32px;
+      margin-left: 10px;
+    }
+  }
+
+  &__cities-block {
+    margin: 0 0 23px 16px;
+  }
+
+  &__cities-title {
+    padding-bottom: 23px;
+  }
+
+  &__city {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+
+    &-name {
+      font-size: 22px;
+      padding-left: 10px;
+    }
+  }
+
+  &--blue {
+    background-color: #07436dbd;
+  }
+
+  &--pink {
+    background-color: #7d1c63c4;
+  }
+
+  &--yellow {
+    background-color: #f0e408a4;
+  }
+
+  &--red {
+    background-color: #a8181daf;
+  }
+
+  &--orange {
+    background-color: #de9b49cb;
+  }
+}
